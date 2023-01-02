@@ -1,10 +1,8 @@
 import React, { Fragment } from "react";
-import { ExpenseDate } from "../ExpenseDate/page";
+import { ExpenseDate } from "../ExpenseDate";
 import styles from "./ExpenseItem.module.css";
 
 export const ExpenseItem = (props) => {
-
-
   return (
     <Fragment>
       <div className={styles.expenseItem}>
